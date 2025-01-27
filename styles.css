@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: "League Spartan", serif;
+    font-size: 15px;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 70px;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 100hv;
+    gap: 20px;
+}
+
+.mainContent h1{
+    color: hsl(300, 43%, 22%);
+    font-family: "League Spartan", serif;
+    font-size: 50px;
+}
+.mainContent p{
+    color: hsl(303, 10%, 53%);
+    font-size: 17px;
+    line-height: 20px;
+    padding: 0px 0px 0px 90px;
+}
+
+.avaliationBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid;
+    width: 500px;
+    border-color: red;
+    gap: 15px;
+}
+
+.box1{
+    display: flex;
+    padding: 20px 80px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px; 
+
+}
+
+.box1 h4{
+    padding-left: 20px;
+}
+
+.box2{
+    display: flex;
+    padding: 20px 65px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px; 
+}
+
+.box2 h4{
+    padding-left: 20px;
+}
+
+.box3{
+    display: flex;
+    padding: 20px 80px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px; 
+}
+
+.box3 h4{
+    padding-left: 20px;
+}
+
+.mainCommentBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.commentCardBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 800px;
+    height: 100hv;
+    border: solid;
+    border-color: red;
+    gap: 50px;
+}
+
+.commentCardBox h4{
+    color: hsl(0, 0%, 100%);
+    font-family: "League Spartan", serif;
+}
+
+.commentCardBox p{
+    color: hsl(0, 0%, 100%);
+    font-family: "League Spartan", serif;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+img{
+    border-radius: 300px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+h5{
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+    font-family: "League Spartan", serif;
+}
+
