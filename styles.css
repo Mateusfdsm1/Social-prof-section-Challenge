@@ -14,7 +14,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 70px 50px 0px 50px;
     gap: 70px;
 }
 
@@ -45,63 +45,80 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: solid;
-    width: 500px;
-    border-color: red;
+    width: 600px;
     gap: 15px;
+    padding-top: 30px;
+}
+
+.boxCover1{
+    display:flex;
+    padding-right: 150px;
 }
 
 .box1{
     display: flex;
-    padding: 20px 80px;
+    padding: 20px 80px 20px 45px;
     background-color: hsl(300, 24%, 96%);
     border-radius: 10px; 
 
 }
 
 .box1 h4{
+    padding-top: 3px;
     padding-left: 20px;
+    font-family: "League Spartan", serif;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
 }
 
 .box2{
     display: flex;
-    padding: 20px 65px;
+    padding: 20px 45px 20px 35px; 
     background-color: hsl(300, 24%, 96%);
     border-radius: 10px; 
 }
 
 .box2 h4{
+    padding-top: 3px;
     padding-left: 20px;
+    font-family: "League Spartan", serif;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+
+.boxCover3{
+    display:flex;
+    padding-left: 120px;
 }
 
 .box3{
     display: flex;
-    padding: 20px 80px;
+    padding: 20px 80px 20px 45px;
     background-color: hsl(300, 24%, 96%);
     border-radius: 10px; 
 }
 
 .box3 h4{
+    padding-top: 3px;
     padding-left: 20px;
+    font-family: "League Spartan", serif;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
 }
 
 .mainCommentBox{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .commentCardBox{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    width: 800px;
-    height: 100hv;
-    border: solid;
-    border-color: red;
-    gap: 50px;
+    width: 1149px;
+    gap: 30px;
+    padding-left: 40px;
 }
 
 .commentCardBox h4{
@@ -112,9 +129,10 @@ p{
 .commentCardBox p{
     color: hsl(0, 0%, 100%);
     font-family: "League Spartan", serif;
+    line-height: 20px;
 }
 
-.card1{
+.card{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,8 +141,30 @@ p{
     border-radius: 10px;
     flex-direction: column;
     gap: 10px;
-    
 }
+
+.boxCard2{
+    margin-top: 80px;
+}
+
+.boxCard3{
+    margin-top: 160px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 87px;
+    padding-bottom: 15px;
+}
+
+.profileContent{
+    flex-direction: column; 
+}
+
+
 
 img{
     border-radius: 300px;
